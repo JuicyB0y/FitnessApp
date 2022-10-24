@@ -1,0 +1,36 @@
+.pagination {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  font-size: 1.2rem;
+  gap: 10px;
+}
+
+.pagination .page-num {
+  padding: 8px 15px;
+  cursor: pointer;
+  border-radius: 3px;
+  font-weight: 500;
+  background-color: #ffa9a9;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.pagination .page-num:hover {
+  filter: brightness(1.1);
+}
+
+.pagination .active {
+  background-color: #fcc757;
+}
+
+.previous .page-num {
+  padding: 8px 8px;
+}
+
+.next .page-num {
+  padding: 8px 8px;
+}

@@ -1,0 +1,33 @@
+.similar-wrapper {
+  margin: 20px 30px 50px 30px;
+}
+
+.similar-header,
+.similar-secondheader {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  margin-top: 82px;
+}
+
+/* .react-horizontal-scrolling-menu--wrapper {
+  flex-wrap: nowrap;
+  align-items: center;
+  overflow: visible;
+} */
+.right-arrow,
+.left-arrow {
+  position: static;
+  align-items: center;
+  /* display: block; */
+  left: 5px;
+  top: 10px;
+}
+
+.scroll-div {
+  margin: 0;
+}
+
+.react-horizontal-scrolling-menu--scroll-container {
+  gap: 10px;
+}

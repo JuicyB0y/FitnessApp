@@ -1,0 +1,48 @@
+.body-wrapper {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  border: none;
+  width: 270px;
+  height: 280px;
+  background-color: #fff;
+  gap: 47px;
+  padding: 40px;
+  transition: transform 0.3s ease-in-out;
+  border-bottom-left-radius: 30px;
+  cursor: pointer;
+  margin: 0 10px 0 10px;
+}
+
+.body-wrapper:hover .body-iconWrapper {
+  transform: scale(1.3);
+}
+
+.body-wrapper:hover .body-text {
+  transform: scale(1.3);
+}
+
+.body-iconWrapper {
+  margin-top: 60px;
+  width: 40px;
+  height: 40px;
+  transition: all 0.3s ease-in-out;
+}
+
+.body-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.bodyActive {
+  border-top: 4px solid #ff2625;
+}
+
+.body-text {
+  font-size: 24px;
+  font-weight: bold;
+  color: #3a1212;
+  text-transform: capitalize;
+  transition: all 0.3s ease-in-out;
+}

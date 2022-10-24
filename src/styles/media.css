@@ -1,0 +1,13 @@
+@media (max-width: 576px) {
+  .nav-wrapper {
+    margin-top: 20px;
+    gap: 40px;
+  }
+
+  .hero-wrapper {
+    margin-top: 70px;
+  }
+  .hero-photo {
+    display: none;
+  }
+}

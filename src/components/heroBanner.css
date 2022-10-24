@@ -1,0 +1,64 @@
+.hero-main {
+  display: flex;
+  justify-content: space-around;
+}
+
+.hero-wrapper {
+  margin-top: 212px;
+  margin-left: 50px;
+}
+
+.hero-head {
+  font-size: 23px;
+  font-weight: 600;
+  color: #ff2625;
+  margin-bottom: 50px;
+}
+
+.hero-slogan {
+  font-size: 44px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  line-height: 4rem;
+}
+
+.hero-check {
+  font-size: 22px;
+  line-height: 35px;
+  margin-bottom: 37px;
+}
+
+.hero-button {
+  font-size: 23px;
+  color: #fff;
+  padding: 11px 17px 9px 17px;
+  background-color: #ff2625;
+  border-radius: 5px;
+  border: none;
+  text-decoration: none;
+  box-shadow: 2px 5px 25px -3px rgba(180, 180, 180, 0.5);
+}
+
+.hero-exercise {
+  color: #ff2625;
+  font-weight: 600;
+  font-size: 200px;
+  opacity: 0.1;
+  margin-top: 55px;
+}
+
+.hero-wrapphoto {
+  position: relative;
+  width: 500px;
+  height: 750px;
+}
+
+.hero-photo {
+  right: 72px;
+  top: -84px;
+  position: absolute;
+  object-fit: cover;
+  width: 500px;
+  height: 750px;
+  border-radius: 0 0 0 104px;
+}

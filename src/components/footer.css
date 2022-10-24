@@ -1,0 +1,23 @@
+.footer-wrapper {
+  margin-top: 80px;
+  background-color: #fff3f4;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-stack {
+  gap: 40px;
+  align-items: center;
+}
+
+.footer-img {
+  margin-top: 20px;
+  width: 200px;
+  height: 40px;
+}
+
+.footer-author {
+  margin-top: 40px;
+  padding-bottom: 40px;
+  font-size: 22px;
+}
