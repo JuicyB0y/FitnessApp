@@ -1,6 +1,6 @@
 import React from 'react';
 import './heroBanner.css';
-import HeroBannerImage from '../assets/images/fitness-model.jpg';
+import HeroBannerImage from '../assets/images/banner.png';
 
 const HeroBanner = () => {
   return (

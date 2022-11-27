@@ -137,4 +137,9 @@ body {
   .exercise-card {
     width: 280px;
   }
+  /* .hero-main,
+  .search-wrapper,
+  .exercises-wrapper {
+    max-width: 100%;
+  } */
 }

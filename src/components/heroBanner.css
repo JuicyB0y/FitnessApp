@@ -4,6 +4,8 @@
 }
 
 .hero-wrapper {
+  /* display: flex;
+  flex-direction: column; */
   margin-top: 212px;
   margin-left: 50px;
 }
@@ -61,4 +63,27 @@
   width: 500px;
   height: 750px;
   border-radius: 0 0 0 104px;
+}
+
+@media screen and (max-width: 1035px) {
+  .hero-wrapphoto {
+    display: none;
+  }
+  .hero-photo {
+    display: none;
+  }
+
+  .hero-wrapper {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 720px) {
+  .hero-exercise {
+    font-size: 90px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .hero-exercise {
+    font-size: 77px;
+  }
 }
